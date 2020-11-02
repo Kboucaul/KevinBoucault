@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kévin Boucault</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width"> <!--, initial-scale=1">-->
+
+		<!--ICI NOUS AVONS LES PAQUETS DE JQUERY ET BOOTSTRAP-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<!----><link rel="stylesheet" href="css/style.css"><!---->
+		<script src="js/script.js"> </script>
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<!--FIN PAQUET-->
+	</head>
+
+	<body>
+
+<!--NAVBAR-->
+
+<nav class="navbar navbar-expand-lg" style="background-color: #be3144">
+  <a class="navbar-brand text-white" href="#">Mon Portfolio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-expanded="true" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="navbar-collapse collapse show text-white">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-white" href="#about">Présentation<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#skills">Compétences</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#projets">Projets</a>
+      
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#formations">Formations et Certifications</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+		<!--Section ABOUT-->
+		<section id="about" class="container-fluid">
+			<div class="col-xs-8 col-md-4 profile-picture">
+				<img src="images/image_pro.jpg" alt="Kévin">
+			</div>
+			<div class="heading">
+				<h1>Kévin Boucault</h1>
+				<h3>24 ans</h3>
+				<h3>Développeur Web</h3>
+				<a href="docs/cv_kévin.pdf" class="button1">Télécharger CV</a>
+			</div>
+		</section>
+
+		<!--Section SKILLS-->
+		<section id="skills">
+			<div class="red-divider"></div>
+			<div class="heading">
+				<h2>Compétences</h2>
+			</div>
+			<div class="container mb-5">
+				<div class="row">
+
+					<div class="col-md-6">
+						<div class="progress">
+							<div class="progress-bar" role ="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+								<h5>PHP</h5>
+							</div>
+						</div>
+						<div class="progress">
+							<div class="progress-bar" role ="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+								<h5>HTML</h5>
+							</div>
+						</div>
+						<div class="progress">
+							<div class="progress-bar" role ="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+								<h5>JavaScript</h5>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="progress">
+							<div class="progress-bar" role ="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+								<h5>Symfony</h5>
+							</div>
+						</div>
+						<div class="progress">
+							<div class="progress-bar" role ="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								<h5>CSS</h5>
+							</div>
+						</div>
+					</div>
+				</div>	
+		</section>
+
+		<!--SECTION EXPERIENCE-->
+		<section id="projets">
+				<div class="white-divider"></div>
+				<div class="heading">
+					<h2>Projets</h2>
+				</div>
+				<ul class="timeline">
+					<li>
+						<div class="timeline-badge"><div class="logo"><span class="fa fa-briefcase"></span></div></div>
+							<div class="timeline-panel-container">
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3>LIBFT</h3>
+										<h4>Langage C</h4>
+										<p class="text-muted"><small class="fa fa-clock-o"></small>Novembre-Décembre 2018</p>
+									</div>
+									<div class="timeline-body">
+										<p>Recréer les fonctions de la bibliothèque C.</p>
+										<p>Véritable couteau suisse du développeur C.</p>
+										<p>Ajouts de nombreuses fonctions utiles et universelles au fil du cursus.</p>
+									</div>
+								</div>
+							</div>
+					</li>
+
+					<li>
+						<div class="timeline-badge"><div class="logo"><span class="fa fa-briefcase"></span></div></div>
+							<div class="timeline-panel-container-inverted">
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3>MINISHELL</h3>
+										<h4>Langage C</h4>
+										<p class="text-muted"><small class="fa fa-clock-o"></small>Mars-Avril 2019.</p>
+									</div>
+									<div class="timeline-body">
+										<p>Recoder le fonctionnement de base d'un shell Unix.</p>
+										<p>Interpréter les commandes entrées par l'utilisateur.</p>
+										<p>Gestion des builtins	(cd, echo, exit ...).</p>
+									</div>
+								</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="timeline-badge"><div class="logo"><span class="fa fa-briefcase"></span></div></div>
+							<div class="timeline-panel-container">
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3>ROGER-SKYLINE</h3>
+										<h4>Administration système et réseau</h4>
+										<p class="text-muted"><small class="fa fa-clock-o"></small>Avril-Juin 2019</p>
+									</div>
+									<div class="timeline-body">
+										<p>Initiation aux bases de l'administration système et réseau.</p>
+										<p>Mise en place de règles de pare-feu, protection contre les scans et DOS.</p>
+										<p>Réalisation de scripts de surveillance et de mise à jour de packages.</p>
+									</div>
+								</div>
+							</div>
+					</li>
+					<li>
+						<div class="timeline-badge"><div class="logo"><span class="fa fa-briefcase"></span></div></div>
+						<div class="timeline-panel-container-inverted">
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3>LEM-IN</h3>
+									<h4>Langage C</h4>
+									<p class="text-muted"><small class="fa fa-clock-o"></small>Octobre-Décembre 2019</p>
+									</div>
+									<div class="timeline-body">
+										<p>Résoudre un problème de flot maximal.</p>
+										<p>Création d'un algorithme de parcours en profondeur optimisé pour les besoins du sujet.</p>
+										<p>Optimisation des ressources et réflexion sur la manière la plus efficace de lire et stocker nos données.</p>
+									</div>
+								</div>
+							</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section id="formation">
+			<div class="container">
+				<div class="red-divider"></div>
+				<div class="heading">
+					<h2>Formation</h2>
+				</div>
+				<div class="row">
+
+					<div class="col-lg-4">
+						<div class="education-block">
+							<h5>2013-2017</h5>
+							<span class="fa fa-graduation-cap"></span>
+							<h3>IAE de Nantes</h3>
+							<h4>Licence d'Économie et de gestion</h4>
+							<div class="red-divider"></div>
+							<p>Microéconomie</p>
+							<p>Comptabilité générale</p>
+							<p>Comptabilité analytique</p>
+							<p>Management</p>
+							<p>Marketing</p>
+							<p>Statistiques</p>
+						</div>
+					</div>
+
+					<div class="col-lg-4">
+						<div class="education-block">
+							<h5>2018-2020</h5>
+							<span class="fa fa-graduation-cap"></span>
+							<h3>École 42</h3>
+							<h4>Diplôme d'architecte en technologie du numérique</h4>
+							<div class="red-divider"></div>
+							<p>Langage C</p>
+							<p>Spécialité algorithmique</p>
+							<p>Administration systèmes et réseaux</p>
+							<p>HTML/CSS/JavaScript</p>
+						</div>
+					</div>
+
+					<div class="col-lg-4">
+						<div class="education-block">
+							<h5>2020</h5>
+							<span class="fa fa-graduation-cap"></span>
+							<h3>Apprendre-a-coder.com</h3>
+							<h4>Formation online<br/>
+								"Développeur Web"</h4>
+							<div class="red-divider"></div>
+							<p>HTML5</p>
+							<p>CSS3</p>
+							<p>JavaScript</p>
+							<p>jQuery</p>
+							<p>Responsive Design</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+<!--PORTFOLIO-->
+		<section id="portfolio">
+			<div class="container">
+				<div class="white-divider"></div>
+				<div class="heading">
+					<h2>Portfolio</h2>
+				</div>
+				<div class="row">
+					<div class="col-sm-4">
+						<a class="thumbnail" href="ProjetSnake/index.html" target=""><img src="images/snake_logo.png" alt="Jeu Snake"></a>
+					</div>
+					<div class="col-sm-4">
+						<a class="thumbnail" href="TravelAgency/index.html" target=""><img src="images/TravelAgency.png" alt="TravelAgency"></a>
+					</div>
+					<div class="col-sm-4">
+						<a class="thumbnail" href="BestActress/index.html" target=""><img src="images/BestActrices.png" alt="BestActress"></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4">
+						<a class="thumbnail" href="GenQuotations/index.html" target=""><img src="images/quotes.png" alt="GenQuotations"></a>
+					</div>
+					<div class="col-sm-4">
+						<a class="thumbnail" href="AppMeteo/index.html" target=""><img src="images/AppMeteo.png" alt="AppMeteo"></a>
+					</div>
+					<div class="col-sm-4">
+						<a class="thumnail" href="MiniDrumKit/index.html" target=""><img src="" alt="MiniDrumKit"></a>
+					</div>
+				</div>	
+				<div class="row">
+					<div class="col-sm-4">
+						<a class="thumbnail" href="PlayWithCss/index.html" target=""><img src="" alt="PlayWithCss"></a>
+					</div>
+					<div class="col-sm-4">
+						<a class="thumbnail" href="FlexPict/index.html" alt="FlexPict"><img src="" alt="FlexPict"></a>
+					</div>
+					<div class="col-sm-4">
+						<a class="thumnail" href="DrawAllUWant/index.html" target=""><img src="" alt="DrawAllUWant"></a>
+					</div>
+				</div>	
+			</div>
+		</section>
+
+<!-- FOOTER-->
+		<footer class="text-center">
+			<a href="#about">
+				<span class="fa fa-chevron-up"></span>
+			</a>
+			<h5><i>Copyright © 2020 kevinboucault.com - Tous droits réservés</i></h5>
+		</footer>
+	</body>
+</html>
