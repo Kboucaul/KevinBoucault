@@ -376,7 +376,7 @@ ul,ol
 #portfolio .thumbnail img
 {
 	filter: grayscale(100%);
-	border: 5px dotted yellow;
+	border: 5px yellow;
 	border-radius : 10px 10px / 5px 5px;
 }
 #portfolio .thumbnail img:hover
