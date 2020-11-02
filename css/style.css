@@ -52,7 +52,7 @@ ul,ol
 	height: 2px;
 	margin: 0 auto;
 	margin-bottom: 20px;
-	background: #FFF;
+	background: #FEF6F4;
 }
 
 /*
@@ -62,8 +62,9 @@ ul,ol
 #about
 {
 	padding-top: 100px;
-	background: #000;
-	background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+	/*background: #000;*/
+	background : #FEF6F4;
+	/*background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);*/
 }
 
 .profile-picture
@@ -71,12 +72,13 @@ ul,ol
 	text-align: center;
 	margin: 0 auto;
 	float: none;
+	width: 50%;
 }
 #about .heading h1
 {
 	font-size: 6rem;
 	margin-top: 20px;
-	color:#FFF;
+	color:#be3144;
 	text-transform: uppercase;
 	font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -97,7 +99,7 @@ ul,ol
 #about img
 {
 	border-radius: 50%;
-	border: 2px solid #A2A1A1;
+	border: 2px solid #3a3d40;
 }
 
 
@@ -105,8 +107,9 @@ ul,ol
 {
 	font-weight: bold; 				/*ecriture en gras*/
 	text-transform: uppercase;		/*mettre en majuscule*/
-	color: #FFF;					/*ecriture blanche*/
-	border: 1px solid white;		/*bordure de 1 px */
+	background: #be3144;
+	color: #FEF6F4;
+	border: 1px solid #FEF6F4;	/*bordure de 1 px */
 	display: inline-block;			/*	*/
 	margin-top: 20px;				/*marge au dessus*/
 	padding: 18px 50px;				/*padding dans le bouton = taille dur ectangle*/				
@@ -119,8 +122,9 @@ ul,ol
 
 .button1:hover
 {
-	background: #FFF;
+	background: #FEF6F4;
 	color: #be3144;
+	border: 1px solid #3a3d40;
 	text-decoration: none;
 	font-size: 3rem;
     font-weight: 200;
@@ -134,12 +138,12 @@ ul,ol
 
 #skills
 {
-	background: #FEF6F4;
+	background:  #3a3d40;
 }
 
 #skills .heading h2
 {
-	color: #be3144;
+	color: #FEF6F4;
 	text-transform: uppercase;
 }
 
@@ -147,7 +151,7 @@ ul,ol
 {
 	height: 30%;
 	margin: 30px 20px;
-	backface-visibility: #CDCAC9;
+	backface-visibility: #3a3d40;
 	border-radius : 10px 10px / 5px 5px;
 }
 
@@ -158,7 +162,7 @@ ul,ol
 
 #skills .progress h5
 {
-	text-shadow: 1px 1px 1px black;
+	text-shadow: 1px 1px 1px #3a3d40;
 }
 
 /*
@@ -167,12 +171,12 @@ ul,ol
 
 #projets
 {
-	background: #be3144;
+	background:  #FEF6F4;
 }
 
 #projets .heading h2
 {
-	color: #FFF;
+	color: #be3144;
 }
 
 .timeline
@@ -222,7 +226,7 @@ ul,ol
 	margin-left: -25px;
 	background: #FEF6F4;
 	border-radius: 50%;
-	border: 1px solid black;
+	border: 1px solid #3a3d40;
 }
 .timeline li .timeline-badge .logo
 {
@@ -236,7 +240,6 @@ ul,ol
 .timeline-panel-container
 {
 	width: 50%;
-	font-size-adjust: 
 	float: left;
 }
 .timeline-panel-container-inverted
@@ -249,12 +252,12 @@ ul,ol
 	width: 90%;
 	float: right;
 	margin-right: 40px;
-	border: 2px solid #A2A1A1;
+	border: 2px solid #3a3d40;
 	border-radius: 16px;
 	padding: 20px 25px;
 	position: relative;
 	box-shadow: 0 1px 6px rgba(0,0,0, 0, 0.175);
-	background-color: #FFF;
+	background-color: #FEF6F4;
 }
 .timeline-panel-container-inverted .timeline-panel
 {
@@ -269,8 +272,8 @@ ul,ol
 	right: -14px;
 	display: inline-block;
 	border-top: 14px solid transparent;
-	border-left: 14px solid #fff;
-	border-right: 0 solid #fff;
+	border-left: 14px solid #FEF6F4;
+	border-right: 0 solid #FEF6F4;
 	border-bottom: 14px solid transparent;
 	content: "";
 }
@@ -300,13 +303,14 @@ ul,ol
 
 #formation
 {
-	background: #FFF;
+	/*background: #FFF;*/
+	background: #3a3d40;
 
 }
 
 #formation .heading h2
 {
-	color: #be3144;
+	color: #FEF6F4;
 	margin-bottom: 30px;
 }
 
@@ -316,10 +320,10 @@ ul,ol
  	margin: 0 auto;
  	text-align: center;
  	padding: 30px;
- 	background: #ddd;
+	background: #FEF6F4;
  	border-radius: 10px;
  	margin-bottom: 20px;
- 	border: 2px solid #A2A1A1;
+ 	border: 2px solid #3a3d40;
  }
 
  .education-block h5
@@ -365,12 +369,13 @@ ul,ol
 
  #portfolio
  {
- 	background: #be3144;
+	 /*background: #be3144;*/
+	 background: #FEF6F4;
  }
 
  #portfolio .heading h2
  {
- 	color: #FEF6F4;
+ 	color: #be3144;
  }
 
 #portfolio .thumbnail img
